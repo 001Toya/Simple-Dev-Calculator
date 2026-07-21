@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <main class="calculator">
+		
+	    <h1>Welcome to Dev Simple Calculator</h1>
+		       
+        <form action="process1.jsp" method="post">
+
+                <div class="inputs">
+                    <label for="num1">Num1</label>
+                    <input type="number" name="num1" step="any" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="num2">Num2</label>
+                    <input type="number" name="num2" step="any" required>
+                </div>
+         
+            
+        <fieldset aria-required="true">
+            <legend>Select Operation</legend>
+ 
+            <input type="submit" name="operation" value="ADD">
+            <input type="submit" name="operation" value="SUB">
+            <input type="submit" name="operation" value="MUL">
+            <input type="submit" name="operation" value="DIV">
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
